@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://s00sniod70ja"
+path="res://.godot/imported/Rabbit.obj-076c6c42197a4eb7897b1c84df71ca29.mesh"
+
+[deps]
+
+files=["res://.godot/imported/Rabbit.obj-076c6c42197a4eb7897b1c84df71ca29.mesh"]
+
+source_file="res://Assets/Rabbit.obj"
+dest_files=["res://.godot/imported/Rabbit.obj-076c6c42197a4eb7897b1c84df71ca29.mesh", "res://.godot/imported/Rabbit.obj-076c6c42197a4eb7897b1c84df71ca29.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

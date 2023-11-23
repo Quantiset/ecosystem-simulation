@@ -1,0 +1,21 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cyaxy7vlvxr58"
+path="res://.godot/imported/low_poly_trees_by_doubleagent2005.obj-a912f1d6f94b6d944d8419a9ec39af1e.mesh"
+
+[deps]
+
+files=["res://.godot/imported/low_poly_trees_by_doubleagent2005.obj-a912f1d6f94b6d944d8419a9ec39af1e.mesh"]
+
+source_file="res://Assets/trees/low_poly_trees_by_doubleagent2005.obj"
+dest_files=["res://.godot/imported/low_poly_trees_by_doubleagent2005.obj-a912f1d6f94b6d944d8419a9ec39af1e.mesh", "res://.godot/imported/low_poly_trees_by_doubleagent2005.obj-a912f1d6f94b6d944d8419a9ec39af1e.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true

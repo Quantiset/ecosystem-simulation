@@ -1,0 +1,47 @@
+[gd_scene load_steps=9 format=2]
+
+[ext_resource path="res://Assets/Rabbit.obj" type="ArrayMesh" id=1]
+[ext_resource path="res://Scripts/Rabbit.gd" type="Script" id=2]
+[ext_resource path="res://Assets/barHorizontal_green_mid 200.png" type="Texture2D" id=3]
+[ext_resource path="res://Scripts/ProgressBar.gd" type="Script" id=4]
+
+[sub_resource type="StandardMaterial3D" id=1]
+albedo_color = Color( 0.635294, 0.45098, 0.266667, 1 )
+
+[sub_resource type="StandardMaterial3D" id=2]
+albedo_color = Color( 0.635294, 0.45098, 0.266667, 1 )
+
+[sub_resource type="StandardMaterial3D" id=3]
+
+[sub_resource type="StandardMaterial3D" id=4]
+
+[node name="Rabbit" type="MeshInstance3D"]
+mesh = ExtResource( 1 )
+material/0 = SubResource( 1 )
+material/1 = SubResource( 2 )
+material/2 = null
+material/3 = null
+material/4 = SubResource( 3 )
+material/5 = SubResource( 4 )
+material/6 = null
+script = ExtResource( 2 )
+
+[node name="HP" type="Sprite3D" parent="."]
+transform = Transform3D( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.24618, 0 )
+billboard = 1
+texture = ExtResource( 3 )
+
+[node name="SubViewport" type="SubViewport" parent="HP"]
+size = Vector2( 200, 52 )
+usage = 0
+render_target_v_flip = true
+
+[node name="ProgressBar" type="TextureProgressBar" parent="HP/SubViewport"]
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource( 4 )
+
+[node name="TextureProgressBar" type="TextureProgressBar" parent="HP/SubViewport/ProgressBar"]
+offset_top = 26.0
+offset_right = 40.0
+offset_bottom = 66.0

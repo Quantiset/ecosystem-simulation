@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://cbgr4t4pqkbm2"]
+
+[ext_resource type="Script" path="res://Scripts/World.gd" id="2"]
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("2")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -1.62921e-07, 1, 0, -1, -1.62921e-07, 9.13864, 21.512, 7.45447)
+far = 500.0
+
+[node name="DirectionalLight2" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.939693, -0.241845, -0.241845, 0, -0.707107, 0.707107, -0.34202, -0.664463, -0.664463, -79, 100, -75)
+light_color = Color(0.505882, 0.505882, 0.505882, 1)
+shadow_enabled = true
